@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-        - image: gcr.io/google-samples/gb-frontend:v5
+        - image: 422220193514.dkr.ecr.ap-south-1.amazonaws.com/repo:latest
           name: guestbook-ui
           ports:
             - containerPort: 80
